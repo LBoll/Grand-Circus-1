@@ -11,5 +11,3 @@ Task: Check if each corresponding place in the two numbers (ones, tens, hundreds
 Input: Your program should read two integer numbers from the user with the same number of digits. 
 
 Output: Your program should print out: True or False based on the result.
-
-
