@@ -8,6 +8,4 @@ So under ConsoleApp3, and ConsoleApp3 again you should find Program.cs contain t
 
 Task: Check if each corresponding place in the two numbers (ones, tens, hundreds, …) sums to the same total.
 
-Input: Your program should read two integer numbers from the user with the same number of digits. 
-
-Output: Your program should print out: True or False based on the result.
+I/O: The user will submit two, 3, integer numbers which will result in it printing out true or false based on the result.
