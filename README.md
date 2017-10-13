@@ -1,50 +1,13 @@
-using System;
-namespace NumberApplication
-{
-    class Number
-    {
-        static void Main(string[] args) {
-            int num1 = getNum();
-            int num2 = getNum();
-            
-            // Get sum of ones digits
-            int ones = num1 % 10 + num2 % 10;
-            num1 /= 10;
-            num2 /= 10;
-            // Get sum of tens digits
-            int tens = num1 % 10 + num2 % 10;
-            num1 /= 10;
-            num2 /= 10;
-            // Get sum of hundreds digits
-            int hundreds = num1 % 10 + num2 % 10;
-            if (ones == tens && ones == hundreds) {
-                Console.WriteLine("True");
-            } else {
-                Console.WriteLine("False");
-            }
-            Console.WriteLine("Press any key to continue");
-            Console.ReadKey();
-        }
+# Grand-Circus-1
+Deliverable 1
 
-        /**
-         *  Get user's input
-         *  
-         *  Returns a valid 3 digit number
-         */
-        static int getNum() {
-            int val = -1;
-            while (val < 100 || val > 999) {
-                Console.Write("Enter 3 digit number: ");
-                // Try to convert input to int
-                try {
-                    val = Convert.ToInt32(Console.ReadLine());
-                } catch (Exception e) {
-                    // User did not input a number
-                    Console.WriteLine("Invalid number");
-                    val = -1;
-                }
-            }
-            return val;
-        }
-    }
-}
+Hello! 
+I uploaded the file completely from Visual Studios. 
+I tried to copy and paste it from there, but when I put it onto GitHub in it's own branch it ended up look all funky.
+So under ConsoleApp3, and ConsoleApp3 again you should find Program.cs contain the source code for the task of such:
+
+Task: Check if each corresponding place in the two numbers (ones, tens, hundreds, …) sums to the same total.
+
+Input: Your program should read two integer numbers from the user with the same number of digits. 
+
+Output: Your program should print out: True or False based on the result.
